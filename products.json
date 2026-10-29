@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Terrarium Glass 45",
+    "category": "Kandang",
+    "price": 485000,
+    "badge": "BEST SELLER",
+    "desc": "Terrarium kaca untuk setup habitat berukuran ringkas.",
+    "img": "images/terrarium-glass.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "UVB Habitat Lamp",
+    "category": "Pencahayaan",
+    "price": 289000,
+    "badge": "PILIHAN KEEPER",
+    "desc": "Lampu habitat. Pilih tingkat UVB sesuai spesies dan setup.",
+    "img": "images/uvb-lamp.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Digital Thermo-Hygro",
+    "category": "Penghangat",
+    "price": 125000,
+    "badge": "ESSENTIAL",
+    "desc": "Pantau suhu dan kelembapan habitat dengan mudah.",
+    "img": "images/thermo-hygro.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Coconut Husk Substrate",
+    "category": "Dekorasi",
+    "price": 65000,
+    "badge": "NATURAL",
+    "desc": "Substrat berbahan sabut kelapa untuk setup yang sesuai.",
+    "img": "images/coconut-substrate.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Ceramic Heat Emitter",
+    "category": "Penghangat",
+    "price": 179000,
+    "badge": "HEAT CONTROL",
+    "desc": "Sumber panas tanpa cahaya tampak; gunakan dengan kontrol suhu.",
+    "img": "images/ceramic-heater.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Feeding Bowl — Stone",
+    "category": "Pakan",
+    "price": 79000,
+    "badge": "EASY CLEAN",
+    "desc": "Wadah pakan dan air dengan tampilan natural.",
+    "img": "images/feeding-bowl.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Climbing Branch Set",
+    "category": "Dekorasi",
+    "price": 99000,
+    "badge": "NATURAL LOOK",
+    "desc": "Dekorasi panjat untuk memperkaya struktur habitat.",
+    "img": "images/climbing-branch.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Calcium Supplement",
+    "category": "Pakan",
+    "price": 55000,
+    "badge": "DAILY CARE",
+    "desc": "Suplemen untuk penggunaan sesuai panduan spesies.",
+    "img": "images/calcium-supplement.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Reptile Care Essentials",
+    "category": "Perawatan",
+    "price": 89000,
+    "badge": "CARE ESSENTIAL",
+    "desc": "Perlengkapan perawatan dasar. Produk kesehatan digunakan sesuai saran dokter hewan.",
+    "img": "images/care-essentials.jpeg"
+  }
+]
