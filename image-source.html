@@ -1,1 +1,173 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Source | TerraHabitat</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .image-source-page {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 24px;
+        }
+
+        .image-source-heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .image-source-heading h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .image-source-heading p {
+            color: #777;
+            font-size: 0.95rem;
+        }
+
+        .image-source-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 22px;
+        }
+
+        .image-source-item {
+            display: block;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #f2f2f2;
+            aspect-ratio: 4 / 3;
+            transition: transform 0.25s ease,
+                        box-shadow 0.25s ease;
+        }
+
+        .image-source-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.35s ease;
+        }
+
+        .image-source-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-source-item:hover img {
+            transform: scale(1.06);
+        }
+
+        @media (max-width: 768px) {
+            .image-source-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 14px;
+            }
+
+            .image-source-page {
+                padding: 35px 16px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .image-source-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- IMAGE SOURCE PAGE -->
+    <main class="image-source-page">
+
+        <div class="image-source-heading">
+            <h1>IMAGE SOURCE</h1>
+            <p>Explore the visual references used in TerraHabitat.</p>
+        </div>
+
+        <div class="image-source-grid">
+
+            <a class="image-source-item" href="https://www.pethousy.com/blog/crested-gecko-enclosure-ideas" target="_blank" rel="noopener noreferrer">
+                <img src="./images/about-terrarium.jpg" alt="Terrarium">
+            </a>
+
+            <a class="image-source-item" href="https://unsplash.com/photos/a-close-up-of-a-bearded-dragon-lizard-FTS7wXhFCmE" target="_blank" rel="noopener noreferrer">
+                <img src="./images/bearded-dragon.jpg" alt="Bearded Dragon">
+            </a>
+
+            <a class="image-source-item" href="https://www.royalpythonscove.com/products/repticalcium-with-d3" target="_blank" rel="noopener noreferrer">
+                <img src="./images/calcium-supplement.jpeg" alt="Calcium Supplement">
+            </a>
+
+            <a class="image-source-item" href="https://www.reptilecentre.com/products/exo-terra-bearded-dragon-accessory-kit" target="_blank" rel="noopener noreferrer">
+                <img src="./images/care-essentials.jpeg" alt="Care Essentials">
+            </a>
+
+            <a class="image-source-item" href="https://www.amazon.co.jp/-/en/Reptile-Ceramic-Infrared-Amphibian-Lighting/dp/B0CKTFSV1L" target="_blank" rel="noopener noreferrer">
+                <img src="./images/ceramic-heater.jpeg" alt="Ceramic Heater">
+            </a>
+
+            <a class="image-source-item" href="https://www.amazon.com.au/VCEPJH-Snake-Climbing-Branch-2Pcs/dp/B0CMPYMBYZ" target="_blank" rel="noopener noreferrer">
+                <img src="./images/climbing-branch.jpeg" alt="Climbing Branch">
+            </a>
+
+            <a class="image-source-item" href="https://exo-terra.com/products/substrates/coconut-substrates/coco-husk-24qt-264l/" target="_blank" rel="noopener noreferrer">
+                <img src="./images/coconut-substrate.jpeg" alt="Coconut Substrate">
+            </a>
+
+            <a class="image-source-item" href="https://www.amazon.com/Exo-Terra-Feeding-Dish-Large/dp/B0002AR4CK" target="_blank" rel="noopener noreferrer">
+                <img src="./images/feeding-bowl.jpeg" alt="Feeding Bowl">
+            </a>
+
+            <a class="image-source-item" href="https://unsplash.com/s/photos/leopard-gecko" target="_blank" rel="noopener noreferrer">
+                <img src="./images/gecko.jpg" alt="Gecko">
+            </a>
+
+            <a class="image-source-item" href="https://www.oflegendmedia.com/wildlife-2" target="_blank" rel="noopener noreferrer">
+                <img src="./images/hero-reptile.jpg" alt="Reptile">
+            </a>
+
+            <a class="image-source-item" href="https://unsplash.com/id/s/foto/raja-kobra" target="_blank" rel="noopener noreferrer">
+                <img src="./images/snake.jpg" alt="Snake">
+            </a>
+
+            <a class="image-source-item" href="https://www.target.com/p/repti-zoo-knock-down-glass-terrarium-medium-tall-36lx24dx24h-easy-assembly/-/A-88398805" target="_blank" rel="noopener noreferrer">
+                <img src="./images/terrarium-glass.jpg" alt="Glass Terrarium">
+            </a>
+
+            <a class="image-source-item" href="https://www.amazon.co.uk/YS-KD-Mini-Reptile-Thermometer/dp/B0CMZX1M52" target="_blank" rel="noopener noreferrer">
+                <img src="./images/thermo-hygro.jpg" alt="Thermometer and Hygrometer">
+            </a>
+
+            <a class="image-source-item" href="https://id.pngtree.com/freebackground/the-big-lizard-eats-a-small-lizard-close-wildlife-green-photo_4677368.html" target="_blank" rel="noopener noreferrer">
+                <img src="./images/tips-feeding.jpg" alt="Reptile Feeding">
+            </a>
+
+            <a class="image-source-item" href="https://depositphotos.com/photos/snake-cage.html" target="_blank" rel="noopener noreferrer">
+                <img src="./images/tips-habitat.jpg" alt="Reptile Habitat">
+            </a>
+
+            <a class="image-source-item" href="https://www.wikihow.com/Make-a-Simple-Leopard-Gecko-Enclosure" target="_blank" rel="noopener noreferrer">
+                <img src="./images/tips-temperature.jpg" alt="Reptile Care">
+            </a>
+
+            <a class="image-source-item" href="https://unsplash.com/s/photos/tortoises" target="_blank" rel="noopener noreferrer">
+                <img src="./images/turtle.jpg" alt="Turtle">
+            </a>
+
+            <a class="image-source-item" href="https://exo-terra.com/products/lighting/uvb-compact-bulbs/reptile-uvb150-25w/" target="_blank" rel="noopener noreferrer">
+                <img src="./images/uvb-lamp.jpg" alt="UVB Lamp">
+            </a>
+
+        </div>
+    </main>
+
+</body>
+</html>
+
