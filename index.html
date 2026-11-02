@@ -413,7 +413,24 @@
         <small>XI-4 · SMAN 3 Bandung</small>
 
     </div>
+  <script>
+    const disclaimerWidget =
+        document.getElementById("disclaimerWidget");
 
+    const disclaimerTrigger =
+        document.getElementById("disclaimerTrigger");
+
+    const disclaimerClose =
+        document.getElementById("disclaimerClose");
+
+    disclaimerTrigger.addEventListener("click", function() {
+        disclaimerWidget.classList.add("active");
+    });
+
+    disclaimerClose.addEventListener("click", function() {
+        disclaimerWidget.classList.remove("active");
+    });
+  </script>
 </div>
  </body>
 </html>
