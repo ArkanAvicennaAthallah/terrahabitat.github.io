@@ -1156,3 +1156,67 @@ button,input,select,textarea {
     overflow-wrap: anywhere;
     margin: 0;
 }
+#splash-screen {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: #17251D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    transition: opacity 0.8s ease,
+                visibility 0.8s ease;
+}
+
+.splash-content {
+    padding: 25px;
+    animation: splashAppear 1s ease;
+}
+
+.splash-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.splash-line {
+    width: 70px;
+    height: 2px;
+    background: #B7C9A8;
+    margin: 20px auto;
+}
+
+.splash-content p {
+    font-size: 16px;
+    color: #D5DDD2;
+}
+
+.splash-content h2 {
+    font-size: 23px;
+    margin: 12px 0;
+}
+
+.splash-content h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #B7C9A8;
+}
+
+#splash-screen.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@keyframes splashAppear {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
