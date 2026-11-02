@@ -1156,6 +1156,8 @@ button,input,select,textarea {
     overflow-wrap: anywhere;
     margin: 0;
 }
+
+/* SPLASH SCREEN */
 #splash-screen {
     position: fixed;
     inset: 0;
@@ -1166,8 +1168,9 @@ button,input,select,textarea {
     align-items: center;
     text-align: center;
     color: white;
-    transition: opacity 0.8s ease,
-                visibility 0.8s ease;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.8s ease, visibility 0.8s ease;
 }
 
 .splash-content {
@@ -1215,6 +1218,7 @@ button,input,select,textarea {
         opacity: 0;
         transform: translateY(15px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
