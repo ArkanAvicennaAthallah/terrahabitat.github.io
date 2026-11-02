@@ -358,9 +358,24 @@
   </script>
   <script>
     window.addEventListener("load", function() {
+        const splash = document.getElementById("splash-screen");
+
+        if (!splash) return;
+
+        if (sessionStorage.getItem("terraSplashShown")) {
+            splash.remove();
+            return;
+        }
+
+        sessionStorage.setItem("terraSplashShown", "true");
+
         setTimeout(function() {
-            document.getElementById("splash-screen")
-                .classList.add("hide");
+            splash.classList.add("hide");
+
+            setTimeout(function() {
+                splash.remove();
+            }, 800);
+
         }, 2500);
     });
   </script>
